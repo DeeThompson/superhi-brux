@@ -1,0 +1,35 @@
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity:  1; }
+}
+
+body {
+	font-family: "Rubik", Arial;
+	font-size: 18px;
+  font-weight: 300;
+	line-height: 1.5;
+	
+	background-color: #ffffff;
+	color: #052837;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0 48px 0 48px;
+  height: 64px;
+  
+  background-color: #c7f2f1;
+
+  
+  transition: background-color 1s;
+}
